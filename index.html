@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title id="Page_Title">Task Manager</title>
+    <link rel="stylesheet" href="assets/css/libs/bootstrap/v3.3.2/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/site.css">
+
+    <meta name="description" content="Request Tracker"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script src="bower_components/angular/angular.min.js"></script>
+</head>
+<body>
+<header id="header">
+    <img id="background-image-top" src="assets/img/header.svg" alt="Top Pebbles"/>
+</header>
+<div id="app-container">
+    <div id="task-page-container">
+        <div id="app-header" class="row">
+            <div id="header-image-container">
+                <img id="header-image" class="image-responsive" src="assets/img/english-header.svg"/>
+            </div>
+        </div>
+        <div class="main-content row">
+            <div id="filter-container">
+
+            </div>
+            <grid></grid>
+        </div>
+    </div>
+</div>
+<footer id="footer">
+    <img id="background-image-bottom" src="assets/img/footer.svg" alt="Bottom Pebbles"/>
+</footer>
+    <script type="text/javascript" src="app/app.module.js"></script>
+    <script type="text/javascript" src="app/app.routes.js"></script>
+</body>
+</html>

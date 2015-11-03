@@ -1,0 +1,19 @@
+{
+  "name": "TaskManager",
+  "authors": [
+    "vcollins67"
+  ],
+  "description": "Task manager for PWS",
+  "main": "app.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

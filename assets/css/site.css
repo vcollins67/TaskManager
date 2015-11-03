@@ -1,0 +1,74 @@
+/* General elements */
+
+html, body {
+    display: block;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px 0;
+    font-family: Calibri sans-serif;
+}
+
+div {
+    display: block;
+}
+
+/* Constant styles */
+
+#header, #footer {
+    z-index: -999999;
+}
+
+#background-image-top {
+    top: 0;
+}
+
+#background-image-bottom {
+    bottom: 0;
+}
+
+#background-image-top,
+#background-image-bottom {
+    z-index: -999999;
+    left: 0;
+    height: auto;
+    width: 100%;
+    position: fixed;
+}
+
+#app-container {
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 15px;
+    min-height: 100%;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 0 2px 2px #ccc;
+    border-radius: 30px;
+}
+
+#app-header {
+    margin-bottom: 10px;
+}
+
+#app-header img {
+    width: 100%;
+}
+
+.main-content {
+    background-color: #fff;
+}
+
+/******************************/
+/* Global Bootstrap Overrides */
+/******************************/
+.row {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 3px;
+}
+
